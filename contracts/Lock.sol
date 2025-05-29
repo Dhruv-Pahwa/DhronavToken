@@ -3,9 +3,9 @@ pragma solidity ^0.8.28;
 
 contract DhronavToken {
     string public name = "Dhronav";
-    string public symbol = "DRDO";
+    string public symbol = "DHR";
     uint8 public decimals = 18;
-    uint256 public totalSupply = 1000000 * 10 ** uint256(decimals); // 1 million DRDO tokens
+    uint256 public totalSupply = 1000000 * 10 ** uint256(decimals); // 1 million DHR tokens
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
